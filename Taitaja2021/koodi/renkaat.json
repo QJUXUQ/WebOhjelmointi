@@ -1,0 +1,13 @@
+[
+    { "RengasID": 1, "Merkki": "Nokian", "Malli": "Hakkapeliitta 8", "Tyyppi": "Nasta", "Koko": "165/55-14", "Hinta": 65.50, "Saldo": 15 },
+    { "RengasID": 2, "Merkki": "Nokian", "Malli": "Hakkapeliitta 8", "Tyyppi": "Nasta", "Koko": "165/65-14", "Hinta": 65.75, "Saldo": 15 },
+    { "RengasID": 3, "Merkki": "Nokian", "Malli": "Hakkapeliitta 9", "Tyyppi": "Kitka", "Koko": "165/55-15", "Hinta": 74.55, "Saldo": 50 },
+    { "RengasID": 4, "Merkki": "Nokian", "Malli": "Hakkapeliitta R3", "Tyyppi": "Kitka", "Koko": "175/65-15", "Hinta": 78.94, "Saldo": 3 },
+    { "RengasID": 5, "Merkki": "Kumho", "Malli": "Wi31+", "Tyyppi": "Nasta", "Koko": "185/65-15", "Hinta": 125.45, "Saldo": 80 },
+    { "RengasID": 6, "Merkki": "Kumho", "Malli": "Wi31+", "Tyyppi": "Nasta", "Koko": "205/65-16", "Hinta": 132.53, "Saldo": 14 },
+    { "RengasID": 7, "Merkki": "Kumho", "Malli": "WS71", "Tyyppi": "Kitka", "Koko": "175/65-15", "Hinta": 86.45, "Saldo": 23 },
+    { "RengasID": 8, "Merkki": "Kumho", "Malli": "WS71", "Tyyppi": "Kitka", "Koko": "165/55-14", "Hinta": 75.88, "Saldo": 3 },
+    { "RengasID": 9, "Merkki": "Hankook", "Malli": "RW11", "Tyyppi": "Kitka", "Koko": "165/65-14", "Hinta": 98.12, "Saldo": 2 },
+    { "RengasID": 10, "Merkki": "Hankook", "Malli": "RW11", "Tyyppi": "Kitka", "Koko": "175/65-15", "Hinta": 99.49, "Saldo": 12 }
+    
+]

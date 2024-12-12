@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="fi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renkaat</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Roboto:wght@400&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        
+        <img src="/Taitaja2021/logo_dark.png" alt="Mustat Renkaat" class="logo" >
+    </header>
+
+    <main>
+        <section class="valinta-osio">
+            <div class="valinta-container">
+                <img class="mainos1" src="/Taitaja2021/Alpine.jpeg" alt="Mainoskuva 1">
+                <div class="valinta-form">
+                    <h2>Valitse rengaskoko ja tyyppi</h2>
+                    <form>
+                        <select id="kokoValinta">
+                        <option value="">Valitse koko</option>
+                        </select>
+                        <select id="tyyppiValinta">
+                            <option value="">Valitse tyyppi</option>
+                            <option value="Nasta">Nasta</option>
+                            <option value="Kitka">Kitka</option>
+                            <option value="Kesä">Kesä</option>
+                        </select>
+                        <button type="button" onclick="haeRenkaat()">Hae</button>
+                    </form>
+
+                </div>
+
+            </div>
+            
+        </section>
+
+        <section>
+            <h2>Tulokset</h2>
+            <table id="renkaatTaulukko">
+                <thead>
+                    <tr>
+                        <th class="klikattava" onclick="lajitteleTaulukko(0)" style="cursor:pointer;">Merkki ⬍</th>
+                        
+                        <th>Malli</th>
+                        <th>Koko</th>
+                        <th class="klikattava" onclick="lajitteleTaulukko(3)" style="cursor:pointer;">Hinta (€) ⬍</th>
+                        
+                        <th>Saldo</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <!-- Tulokset lisätään tänne -->
+                </tbody>
+            </table>
+        </section>
+        
+        <section>
+            <img class ="mainos2" src="/Taitaja2021/lappi.jpeg" alt="Mainoskuva 2">
+            <h2>Renkaiden vaihtovideo</h2>
+            <div class="youtube">
+                <iframe width="560" 
+                height="315" 
+                src="https://www.youtube.com/embed/CLhwPcy0OzA?si=nabUGty9SzCHq_er" 
+                title="YouTube video player" 
+                frameborder="0" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                referrerpolicy="strict-origin-when-cross-origin" 
+                allowfullscreen>
+                </iframe>
+                <p><a href="https://www.youtube.com/watch?v=CLhwPcy0OzA" target="_blank">Katso video Youtubesta</a>.</p>
+            </div>
+            
+            <img src="/Taitaja2021/MUSTATrenkaat_Karttakuva.jfif" alt="Toimipisteen kartta" class="karttakuva">
+        </section>
+    </main>
+
+    <footer>
+        <p>Mustapään Auto Oy,<br> Kosteenkatu 1,<br> 86300 Oulainen <br> Puh. 040-7128158 <br> myyntimies@mustatrenkaat.net</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
